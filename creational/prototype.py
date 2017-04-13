@@ -17,6 +17,7 @@ class Prototype:
 def main():
     prototype = Prototype()
     prototype_copy = copy.deepcopy(prototype)
+    assert prototype is not prototype_copy
 
 
 if __name__ == "__main__":
