@@ -12,8 +12,8 @@ class Target(metaclass=abc.ABCMeta):
     Define the domain-specific interface that Client uses.
     """
 
-    def __init__(self):
-        self._adaptee = Adaptee()
+    def __init__(self, adaptee):
+        self._adaptee = adaptee
 
     @abc.abstractmethod
     def request(self):
@@ -39,7 +39,8 @@ class Adaptee:
 
 
 def main():
-    adapter = Adapter()
+    adaptee = Adaptee()
+    adapter = Adapter(adaptee)
     adapter.request()
 
 
