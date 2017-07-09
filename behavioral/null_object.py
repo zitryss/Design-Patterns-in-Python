@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Encapsulate the absence of an object by providing a substitutable
 alternative that offers suitable default do nothing behavior.

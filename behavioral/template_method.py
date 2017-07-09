@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Define the skeleton of an algorithm in an operation, deferring some
 steps to subclasses. Template Method lets subclasses redefine certain

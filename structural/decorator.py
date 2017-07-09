@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Attach additional responsibilities to an object dynamically. Decorators
 provide a flexible alternative to subclassing for extending

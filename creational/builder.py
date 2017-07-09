@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Separate the construction of a complex object from its representation so
 that the same construction process can create different representations.

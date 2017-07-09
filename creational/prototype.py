@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Specify the kinds of objects to create using a prototypical instance,
 and create new objects by copying this prototype.

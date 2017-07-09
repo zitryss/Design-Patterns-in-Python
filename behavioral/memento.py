@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Capture and externalize an object's internal state so that the object
 can be restored to this state later, without violating encapsulation.

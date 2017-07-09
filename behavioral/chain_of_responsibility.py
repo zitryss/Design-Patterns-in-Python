@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Avoid coupling the sender of a request to its receiver by giving
 more than one object a chance to handle the request. Chain the receiving

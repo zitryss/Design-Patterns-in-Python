@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Offer a significant performance boost; it is most effective in
 situations where the cost of initializing a class instance is high, the

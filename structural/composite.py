@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Compose objects into tree structures to represent part-whole
 hierarchies. Composite lets clients treat individual objects and

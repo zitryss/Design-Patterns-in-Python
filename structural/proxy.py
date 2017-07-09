@@ -1,3 +1,5 @@
+# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
+
 """
 Provide a surrogate or placeholder for another object to control access
 to it or add other responsibilities.
