@@ -16,6 +16,10 @@ class ValueObject:
     def __hash__(self):
         return hash(tuple(vars(self).values()))
 
+    @classmethod
+    def operation(cls, value):
+        return cls(value)
+
 
 def main():
     value_object1 = ValueObject(0)
