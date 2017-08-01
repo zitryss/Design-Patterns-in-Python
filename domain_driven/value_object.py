@@ -1,7 +1,7 @@
 class ValueObject:
 
     def __init__(self, value):
-        self._attribute = value
+        self._value = value
 
     def __eq__(self, other):
         if isinstance(other, type(self)):
