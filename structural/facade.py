@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Provide a unified interface to a set of interfaces in a subsystem.
 Facade defines a higher-level interface that makes the subsystem easier

@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Separate the areas of responsibility to maintain loose coupling and for
 the maintainability of the software.

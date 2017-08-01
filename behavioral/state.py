@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Allow an object to alter its behavior when its internal state changes.
 The object will appear to change its class.

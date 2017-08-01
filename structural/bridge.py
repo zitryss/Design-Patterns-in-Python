@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Decouple an abstraction from its implementation so that the two can vary
 independently.

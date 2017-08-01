@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Define an object that encapsulates how a set of objects interact.
 Mediator promotes loose coupling by keeping objects from referring to

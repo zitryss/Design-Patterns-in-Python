@@ -1,5 +1,3 @@
-# Source code is available at https://github.com/zitryss/Design-Patterns-in-Python
-
 """
 Define an interface for creating an object, but let subclasses decide
 which class to instantiate. Factory Method lets a class defer
