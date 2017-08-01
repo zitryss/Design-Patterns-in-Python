@@ -16,6 +16,9 @@ class ValueObject:
     def __hash__(self):
         return hash(tuple(vars(self).values()))
 
+    def __setattr__(self, name, value):
+        raise AttributeError
+
     @classmethod
     def operation(cls, value):
         return cls(value)
