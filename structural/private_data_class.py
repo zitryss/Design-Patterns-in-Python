@@ -10,15 +10,11 @@ class DataClass:
     Hide all the attributes.
     """
 
-    def __init__(self):
-        self.value = None
+    def __init__(self, value):
+        vars(self).update({"value": value})
 
-    def __get__(self, instance, owner):
-        return self.value
-
-    def __set__(self, instance, value):
-        if self.value is None:
-            self.value = value
+    def __setattr__(self, name, value):
+        raise AttributeError
 
 
 class MainClass:
@@ -26,15 +22,13 @@ class MainClass:
     Initialize data class through the data class's constructor.
     """
 
-    attribute = DataClass()
-
     def __init__(self, value):
-        self.attribute = value
+        self._data = DataClass(value)
 
 
 def main():
-    m = MainClass(True)
-    m.attribute = False
+    m2 = MainClass("test")
+    assert m2._data.value == "test"
 
 
 if __name__ == "__main__":
