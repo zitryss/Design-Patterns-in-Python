@@ -1,3 +1,8 @@
+"""
+Objects that are equal due to the value of their properties are called
+value objects.
+"""
+
 class ValueObject:
 
     def __init__(self, value):
