@@ -27,8 +27,8 @@ class MainClass:
 
 
 def main():
-    m2 = MainClass("test")
-    assert m2._data.value == "test"
+    m = MainClass("test")
+    assert m._data.value == "test"
 
 
 if __name__ == "__main__":
